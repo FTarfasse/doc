@@ -1,0 +1,1 @@
+The test will fail if a query with a CROSS JOIN syntax is found.

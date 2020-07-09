@@ -1,0 +1,3 @@
+Verify that SQL statements do not contain LIKE with leading wildcard (% or _).<br>
+You can read this [paper](https://use-the-index-luke.com/sql/where-clause/searching-for-ranges/like-performance-tuning) explaining why LIKE with leading wildcard could be a bad idea in term of performance.<br>
+A code sent to the database with a like operator with leading wildcard may be fast in a test having a few data but very slow with the data volume of production.
